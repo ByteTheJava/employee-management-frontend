@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class EmployeeService {
 
-  private baseUrl = 'http://localhost:8080/ems';
+  private baseUrl = 'https://employee-backend-app.azurewebsites.net/ems';
 
   constructor(private http: HttpClient) { }
 
